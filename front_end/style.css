@@ -1,0 +1,486 @@
+body{
+    margin:auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container .item{
+    height: 55%;
+    width: 70%;
+  
+}
+.item .picture{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    background-color: aquamarine;
+    border-bottom-left-radius: 40px;
+}
+.picture img{
+    transform: rotate(-20deg);
+    height: 80%;
+}
+.title{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: rgb(180, 180, 0);
+    border-top-right-radius: 40px;
+}
+.title .head{
+    width: 100%;
+    height: 30px;
+}
+.title .head h1{
+    text-align: center;
+    color: white;
+}
+.title .small-text{
+    height: 100px;
+    width: 80%;
+    margin-left: 57px;
+    margin-top: 100px;
+}
+.title .small-text p{
+    line-height: 25px;
+    color: white;
+}
+.item .sign-up{
+    width: 90%;
+    height: 30%;
+    position: relative;
+    top: 90px;
+    left: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sign-up button{
+    height: 30px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 0px solid black;
+    font-weight: 700;
+}
+.sign-up .skip{
+    background-color: red;
+}
+.sign-up a{
+    padding: 40px;
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.container{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .container .item{
+        height: 55%;
+        width: 70%;
+      
+    }
+    .item .picture{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        background-color: aquamarine;
+        border-bottom-left-radius: 40px;
+    }
+    .picture img{
+        transform: rotate(-20deg);
+        height: 80%;
+    }
+    .title{
+        height: 100%;
+        width: 50%;
+        float: left;
+        background-color: rgb(180, 180, 0);
+        border-top-right-radius: 40px;
+    }
+    .title .head{
+        width: 100%;
+        height: 30px;
+    }
+    .title .head h1{
+        text-align: center;
+        color: white;
+    }
+    .title .small-text{
+        height: 100px;
+        width: 80%;
+        margin-left: 57px;
+        margin-top: 100px;
+    }
+    .title .small-text p{
+        line-height: 25px;
+        color: white;
+    }
+    .item .sign-up{
+        width: 90%;
+        height: 30%;
+        position: relative;
+        top: 90px;
+        left: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .sign-up button{
+        height: 30px;
+        width: 100px;
+        background-color: aquamarine;
+        border: 0px solid black;
+        font-weight: 700;
+    }
+    .sign-up .skip{
+        background-color: red;
+    }
+    .sign-up a{
+        padding: 40px;
+    }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container{
+        height: 100vh;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .container .item{
+        height: 55%;
+        width: 100%;
+      
+    }
+    .item .picture{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        background-color: aquamarine;
+        border-bottom-left-radius: 40px;
+    }
+    .picture img{
+        transform: rotate(-20deg);
+        height: 80%;
+    }
+    .title{
+        height: 100%;
+        width: 50%;
+        float: left;
+        background-color: rgb(180, 180, 0);
+        border-top-right-radius: 40px;
+    }
+    .title .head{
+        width: 100%;
+        height: 30px;
+    }
+    .title .head h1{
+        text-align: center;
+        color: white;
+    }
+    .title .small-text{
+        height: 100px;
+        width: 80%;
+        margin-left: 57px;
+        margin-top: 100px;
+    }
+    .title .small-text p{
+        line-height: 25px;
+        color: white;
+    }
+    .item .sign-up{
+        width: 90%;
+        height: 30%;
+        position: relative;
+        top: 90px;
+        left: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .sign-up button{
+        height: 30px;
+        width: 100px;
+        background-color: aquamarine;
+        border: 0px solid black;
+        font-weight: 700;
+    }
+    .sign-up .skip{
+        background-color: red;
+    }
+    .sign-up a{
+        padding: 40px;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container{
+        height: 100vh;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .container .item{
+        height: 55%;
+        width: 100%;
+      
+    }
+    .item .picture{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        background-color: aquamarine;
+        border-bottom-left-radius: 40px;
+    }
+    .picture img{
+        transform: rotate(-20deg);
+        height: 80%;
+    }
+    .title{
+        height: 100%;
+        width: 50%;
+        float: left;
+        background-color: rgb(180, 180, 0);
+        border-top-right-radius: 40px;
+    }
+    .title .head{
+        width: 100%;
+        height: 30px;
+    }
+    .title .head h1{
+        text-align: center;
+        color: white;
+    }
+    .title .small-text{
+        height: 100px;
+        width: 80%;
+        margin-left: 57px;
+        margin-top: 100px;
+    }
+    .title .small-text p{
+        line-height: 25px;
+        color: white;
+    }
+    .item .sign-up{
+        width: 90%;
+        height: 30%;
+        position: relative;
+        top: 90px;
+        left: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .sign-up button{
+        height: 30px;
+        width: 100px;
+        background-color: aquamarine;
+        border: 0px solid black;
+        font-weight: 700;
+    }
+    .sign-up .skip{
+        background-color: red;
+    }
+    .sign-up a{
+        padding: 40px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	.container{
+        height: 100vh;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .container .item{
+        height: 55%;
+        width: 100%;
+      
+    }
+    .item .picture{
+        height: 90%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        background-color: aquamarine;
+        border-bottom-left-radius: 40px;
+    }
+    .picture img{
+        transform: rotate(-20deg);
+        height: 60%;
+    }
+    .title{
+        height: 90%;
+        width: 50%;
+        float: left;
+        background-color: rgb(180, 180, 0);
+        border-top-right-radius: 40px;
+    }
+    .title .head{
+        width: 100%;
+        height: 30px;
+    }
+    .title .head h1{
+        text-align: center;
+        color: white;
+    }
+    .title .small-text{
+        height: 100px;
+        width: 80%;
+        margin-left: 57px;
+        margin-top: 100px;
+    }
+    .title .small-text p{
+        line-height: 25px;
+        color: white;
+    }
+    .item .sign-up{
+        width: 90%;
+        height: 30%;
+        position: relative;
+        top: 90px;
+        left: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .sign-up button{
+        height: 30px;
+        width: 100px;
+        background-color: aquamarine;
+        border: 0px solid black;
+        font-weight: 700;
+    }
+    .sign-up .skip{
+        background-color: red;
+    }
+    .sign-up a{
+        padding: 40px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.container{
+        height: 100vh;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .container .item{
+        height: 55%;
+        width: 100%;
+      
+    }
+    .item .picture{
+        height: 100%;
+        display: none;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        background-color: aquamarine;
+        border-bottom-left-radius: 40px;
+    }
+    .picture img{
+        transform: rotate(-20deg);
+        height: 80%;
+    }
+    .title{
+        height: 100%;
+        width: 100%;
+        float: left;
+        background-color: rgb(180, 180, 0);
+        border-top-right-radius: 0;
+    }
+    .title .head{
+        width: 100%;
+        height: 30px;
+    }
+    .title .head h1{
+        text-align: center;
+        color: white;
+    }
+    .title .small-text{
+        height: 100px;
+        width: 80%;
+        margin-left: 57px;
+        margin-top: 100px;
+    }
+    .title .small-text p{
+        line-height: 25px;
+        color: white;
+    }
+    .item .sign-up{
+        width: 90%;
+        height: 30%;
+        position: relative;
+        top: 90px;
+        left: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .sign-up button{
+        height: 30px;
+        width: 200px;
+        float: left;
+        background-color: aquamarine;
+        border: 0px solid black;
+        
+        font-weight: 700;
+    }
+    .sign-up .skip{
+        background-color: red;
+        position: relative;
+        top: 60px;
+        right: 150px;
+        cursor: pointer;
+    }
+    .sign-up .sign{
+        position: relative;
+        transition: 0.5s;
+        cursor: pointer;
+        left: 129px;
+    }
+    .sign-up a{
+        padding: 40px;
+    }
+}
